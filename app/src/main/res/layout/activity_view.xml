@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="comandroid_mysql_crud.freeprojectcode.androidphpmysqlcrud.ViewActivity">
+
+    <Button
+        android:onClick="addEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="11dp"
+        android:background="#e2152099"
+        android:text="Add Employee"/>
+<ListView
+    android:id="@+id/list"
+    android:padding="11dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</RelativeLayout>
